@@ -88,6 +88,7 @@ body, html {
 .header .shaped-area {
     position: relative;
     overflow: hidden;
+    height: 100vh;
 }
 
 .header .shaped-area .shape-style {
