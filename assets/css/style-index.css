@@ -88,6 +88,7 @@ body, html {
 .header .shaped-area {
     position: relative;
     overflow: hidden;
+    height: 100vh;
 }
 
 .header .shaped-area .shape-style {
@@ -227,6 +228,11 @@ body, html {
 
 
 /* footer */
+.footer {
+    position: fixed;
+    bottom: 0;
+}
+
 .footer p.copy-right {
     font-size: 0.875rem;
 }
